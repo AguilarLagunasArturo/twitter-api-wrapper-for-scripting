@@ -1,4 +1,4 @@
-# Twitter Wrapper for Scripting
+# Twitter API V1 Wrapper for Scripting
 This is a bare minimum implementation so you can just use it as is or add functionality on top of it.
 ## Usage
 **Clone repo**
@@ -8,7 +8,7 @@ cd twitter-api-wrapper-for-scripting
 ```
 
 **Write script**
-You need to be inside the _twitter-api-wrapper-for-scripting_ directory
+You need to be inside the _twitter-api-wrapper-for-scripting_ directory.
 ```python
 # from TwitterAPI.TwitterAPIWrapper import TwitterAPI
 from TwitterAPIWrapper import TwitterAPI
