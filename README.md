@@ -40,24 +40,21 @@ api.tweet_image(
     # 'some text (optional)'
 )
 
-# This section is commented in the TwitterAPIWrapper.py file as well
-'''
-Get the most recent tweets from the user's timeline
+# Get the most recent tweets from the user's timeline
 timeline_tweets = api.get_timeline_tweets(count=5)
 print(timeline_tweets)
 
-Search for tweets containing a specific keyword
+# Search for tweets containing a specific keyword
 search_results = api.search_tweets(query='Python', count=5)
 print(search_results)
 
-Get user information
+# Get user information
 user_info = api.get_user_info()
 print(user_info)
 
-Reply to a tweet
+# Reply to a tweet
 tweet_id = '123456789012345678'  # Replace with a valid tweet ID
 api.reply_to_tweet(tweet_id, 'This is a reply to the tweet.')
-'''
 ```
 
 ## Demos
@@ -65,3 +62,7 @@ api.reply_to_tweet(tweet_id, 'This is a reply to the tweet.')
 |:-|:-|
 |tweet.py|Tweets a string of text|
 |tweet_image.py|Tweets a single image and a list of images|
+|twitter_analizer.py|Analize your account tweets and suggests hashtags by topic|
+|get_timeline.py|Query your timeline|
+|get_tweets.py|Search tweets|
+|get_user_info.py|Get your user profile info|
