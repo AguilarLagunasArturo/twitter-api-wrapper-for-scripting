@@ -1,4 +1,4 @@
-# Twitter API V1 Wrapper for Scripting
+# Twitter API V1 Wrapper for Scripting [Deprecated]
 This is a bare minimum implementation so you can just use it as is or add functionality on top of it.
 ## Usage
 **Clone repo**
